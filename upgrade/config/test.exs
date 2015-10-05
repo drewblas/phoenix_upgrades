@@ -18,4 +18,5 @@ config :upgrade, Upgrade.Repo,
   username: "postgres",
   password: "postgres",
   database: "upgrade_test",
+  hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox

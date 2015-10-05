@@ -38,4 +38,5 @@ config :upgrade, Upgrade.Repo,
   username: "postgres",
   password: "postgres",
   database: "upgrade_dev",
+  hostname: "localhost",
   pool_size: 10
