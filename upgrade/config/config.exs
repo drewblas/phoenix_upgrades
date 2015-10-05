@@ -10,7 +10,7 @@ config :upgrade, Upgrade.Endpoint,
   url: [host: "localhost"],
   root: Path.dirname(__DIR__),
   secret_key_base: "REMOVED",
-  render_errors: [default_format: "html"],
+  render_errors: [accepts: ~w(html json)],
   pubsub: [name: Upgrade.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
