@@ -16,7 +16,6 @@ defmodule Upgrade.ModelCase do
 
   using do
     quote do
-      # Alias the data repository and import query/model functions
       alias Upgrade.Repo
       import Ecto.Model
       import Ecto.Query, only: [from: 2]
