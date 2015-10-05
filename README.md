@@ -8,7 +8,7 @@ It allows you to easily see the diff of changes from one version to the next to 
 
 ## Usage
 
-To view the changes on GitHub, click the 'commits' link below the project description, and then click one of the commits to see how the generated project changed from the previous version to the selected one.  
+To view the changes on GitHub, [go to the commit list](https://github.com/drewblas/phoenix_upgrades/commits/master), and then click one of the commits to see how the generated project changed from the previous version to the selected one.  
 
 Alternately, clone this repository and use the following commands:
 
