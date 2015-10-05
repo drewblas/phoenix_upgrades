@@ -18,9 +18,9 @@ defmodule Upgrade.CommentControllerTest do
   test "shows chosen resource", %{conn: conn} do
     comment = Repo.insert! %Comment{}
     conn = get conn, comment_path(conn, :show, comment)
-    assert json_response(conn, 200)["data"] == %{id: comment.id,
-      body: comment.body,
-      user_id: comment.user_id}
+    assert json_response(conn, 200)["data"] == %{"id" => comment.id,
+      "body" => comment.body,
+      "user_id" => comment.user_id}
   end
 
   test "does not show resource and instead throw error when id is nonexistent", %{conn: conn} do
