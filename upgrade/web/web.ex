@@ -28,7 +28,7 @@ defmodule Upgrade.Web do
 
       alias Upgrade.Repo
       import Ecto.Model
-      import Ecto.Query, only: [from: 2]
+      import Ecto.Query, only: [from: 1, from: 2]
 
       import Upgrade.Router.Helpers
     end
@@ -60,7 +60,7 @@ defmodule Upgrade.Web do
 
       alias Upgrade.Repo
       import Ecto.Model
-      import Ecto.Query, only: [from: 2]
+      import Ecto.Query, only: [from: 1, from: 2]
 
     end
   end
