@@ -8,8 +8,9 @@ It allows you to easily see the diff of changes from one version to the next to 
 
 ## Usage
 
-If you just want to view the diffs, do so on github.  It's not actually necessary to clone
-this repo
+To view the changes on GitHub, click the 'commits' link below the project description, and then click one of the commits to see how the generated project changed from the previous version to the selected one.  
+
+Alternately, clone this repository and use the following commands:
 
 * `./run.sh download` to download all the phoenix_new*.ez files
 * `./run.sh reset` erases the git history to start anew
